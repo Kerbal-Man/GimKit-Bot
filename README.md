@@ -5,7 +5,7 @@ GimKit bot to answer questions for you in Tag
 Requires Python. Requires a very specific set of questions
 
 Import This into gimkit set:
-https://www.gimkit.com/view/626447d8fe7de6002313cc6c
+[here](https://www.gimkit.com/view/626447d8fe7de6002313cc6c)
 MUST use the set provided
 
 
