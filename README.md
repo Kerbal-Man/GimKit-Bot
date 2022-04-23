@@ -10,5 +10,5 @@ MUST use the set provided
 
 
 # How to run:
-	On first run run FirstRun.bat to install everything. After running FirstRun.
-	bat you can safely run run.bat instead of FirstRun.bat
+On first run run FirstRun.bat to install everything. After running FirstRun.
+bat you can safely run run.bat instead of FirstRun.bat
