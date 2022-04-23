@@ -1,0 +1,8 @@
+# GimKit-Bot
+GimKit bot to answer questions for you in Tag 
+
+# WARNING
+Requires Python. Requires a very specific set of questions
+
+# How to run:
+	On first run run FirstRun.bat to install everything. After running FirstRun.bat you can safely run run.bat instead of FirstRun.bat
