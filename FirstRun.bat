@@ -1,3 +1,4 @@
+@echo off
 echo You only need to run this file once
 echo installing packages
 pip install pillow

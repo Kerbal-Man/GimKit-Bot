@@ -15,27 +15,36 @@ def main():
 
     # Color of center: (255, 219, 195)
 
-    while keyboard.is_pressed('q') == False:
-        flag = 0
-        pic = pyautogui.screenshot(region=(584, 422, 751, 526))
+    while True == True:
+        if keyboard.is_pressed('q') == True:
+            flag = 0
+            pic = pyautogui.screenshot(region=(584, 422, 751, 526))
 
-        width, height = pic.size
+            width, height = pic.size
 
-        for x in range(0, width, 5):
-            for y in range(0, height, 5):
+            for x in range(0, width, 5):
+                for y in range(0, height, 5):
 
-                r, g, b = pic.getpixel((x, y))
+                    r, g, b = pic.getpixel((x, y))
 
-                if b == 255 and r == 0 and g == 0:
-                    flag = 1
-                    click(x + 584, y + 422)
-                    time.sleep(0.3)
-                    click(960, 865)
-                    time.sleep(0.01)
+                    if b == 255 and r == 0 and g == 0:
+                        flag = 1
+                        click(x + 584, y + 422)
+                        time.sleep(0.3)
+                        click(960, 865)
+                        time.sleep(0.2)
+                        break
+
+                    if b == 0 and r == 255 and g == 0:
+                        flag = 1
+                        click(x + 584, y + 422)
+                        time.sleep(0.3)
+                        click(960, 865)
+                        time.sleep(0.2)
+                        break
+
+                if flag == 1:
                     break
-
-            if flag == 1:
-                break
 
 
 if __name__ == '__main__':
